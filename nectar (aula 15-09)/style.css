@@ -173,7 +173,8 @@ a:hover {
 .foto img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 340px;
+    object-fit: cover;
     border-radius: 16px;
 }
 
