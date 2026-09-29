@@ -119,3 +119,90 @@ a:hover {
     margin-right: 90px;
 }
 
+.faixa-img {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-top: -10px; 
+    margin-bottom: -10px;  
+    position: relative;   
+}
+
+#entrega {
+    background-color: #7a1f2b;
+    color: #fdf6ee;
+    padding: 80px 60px;
+    text-align: center;
+}
+
+.frase {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    font-family: 'Poppins';
+}
+
+#entrega h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.order {
+    font-family: 'Poppins';
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.produto {
+    width: 260px;
+}
+
+.foto {
+    position: relative;
+}
+
+.foto img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.selo {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: #fdf6ee;
+    color: #B12228;
+    font-size: 12px;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.produto h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.detalhe {
+    font-size: 14px;
+    margin-bottom: 8px;
+    font-family: 'Poppins';
+}
+
+.preco {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
