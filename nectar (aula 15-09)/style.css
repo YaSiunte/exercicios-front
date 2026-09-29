@@ -206,3 +206,22 @@ a:hover {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
 }
+
+footer {
+    background-color: #FFB2C5;
+    color: #B12228;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.footer-logo {
+    font-family: 'Chango';
+    font-size: 32px;
+}
+
+.copyright {
+    font-size: 13px;
+    font-family: 'Poppins';
+}
