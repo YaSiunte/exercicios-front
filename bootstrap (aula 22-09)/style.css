@@ -1,20 +1,83 @@
+body {
+    background: #e6eef2
+}
+
 .navbar {
-  background: #06172b;
+    background: #06172b;
 }
 
 .navbar-brand {
-  color: #c9a227 !important;
-  font-weight: 700;
+    color: #c9a227 !important;
+    font-weight: 700;
 }
 
 .nav-link {
-  color: #cfe3ea !important;
+    color: #cfe3ea !important;
 }
 
 .nav-link:hover {
-  color: #c9a227 !important;
+    color: #c9a227 !important;
 }
 
 .navbar-brand, .nav-link {
-  font-family: 'Cinzel', serif;
+    font-family: 'Cinzel', serif;
 }
+
+.banner {
+    background: linear-gradient(180deg, #06172b 0%, #0a2540 55%, #1b8a9c 100%);
+    position: relative;
+    padding: 20px 0 30px;
+}
+
+.banner .container {
+  padding-bottom: 40px;
+}
+
+.banner h1 {
+    font-family: 'Cinzel', serif; 
+    font-weight: 900;
+}
+
+p {
+    color: #fff
+}
+
+.btn-livros {
+    background: #c9a227;
+    border-color: #c9a227;
+    color: #06172b;
+    font-family: 'Cinzel', serif; 
+}
+
+.btn-livros:hover {
+    background: #ddb73a;
+    border-color: #ddb73a;
+    color: #06172b;
+}
+
+.btn-chales {
+    font-family: 'Cinzel', serif; 
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    width: 100%;
+    height: 70px;
+}
+
+.banner .lead {
+    max-width: 30rem;
+    font-weight: 400;
+    color: #cfe3ea;
+}
+
+.banner .btn {
+    font-weight: 700;
+}
+
+img {
+    width: 400px;
+}
+
