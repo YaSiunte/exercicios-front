@@ -68,7 +68,7 @@ p {
 }
 
 .banner .lead {
-    max-width: 30rem;
+    max-width: 480px;
     font-weight: 400;
     color: #cfe3ea;
 }
@@ -81,3 +81,97 @@ img {
     width: 400px;
 }
 
+#livros {
+    padding: 72px 0;
+}
+
+.section-title {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color: #0a2540;
+}
+
+.traco {
+    width: 80px;
+    height: 4px;
+    background: #c9a227;
+    border: 0;
+    opacity: 1;
+    margin: 10px 0 32px;
+}
+
+p {
+    color: #06172b;
+}
+
+h3 {
+    font-family: 'Cinzel', serif;
+    padding-top: 15px;
+}
+
+.nav-tabs {
+    border-bottom: 0;
+    gap: 7px;
+    padding-top: 12px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.nav-tabs .nav-link {
+    color: #fff;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    text-align: left;
+    white-space: nowrap;
+    padding: 20px 18px;
+    border: 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.nav-tabs .nav-link small {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+    color: #fff;
+    border: 0;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    transform: translateY(-10px);
+    box-shadow: 0 10px 0 #c9a227;
+}
+
+.nav-tabs .nav-link.livro1 { 
+    background: #0e2043; 
+}
+.nav-tabs .nav-link.livro2 { 
+    background: #223164; 
+}
+.nav-tabs .nav-link.livro3 { 
+    background: #3462ac; 
+}
+.nav-tabs .nav-link.livro4 { 
+    background: #e8af2e; 
+}
+.nav-tabs .nav-link.livro5 { 
+    background: #e8c766; 
+}
+
+.tab-content {
+    background: #fff;
+    color: #14202b;
+    border-top: 6px solid #c9a227;
+    padding: 40px;
+    box-shadow: 0 8px 24px rgba(6, 23, 43, .12);
+}
+
+.tab-content h3 {
+    font-family: 'Cinzel', serif;
+    color: #0a2540;
+}

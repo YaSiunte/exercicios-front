@@ -12,44 +12,90 @@
 <body>
 
     <nav class="navbar navbar-expand-lg sticky-top">
-    <div class="container">
-        <a class="navbar-brand" href="#">Acampamento Meio-Sangue</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-            <a class="nav-link active" aria-current="page" href="#livros">Livros</a>
-            <a class="nav-link" href="#personagens">Personagens</a>
-            <a class="nav-link" href="#chales">Chalés</a>
+        <div class="container">
+            <a class="navbar-brand" href="#">Acampamento Meio-Sangue</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#livros">Livros</a>
+                    <a class="nav-link" href="#personagens">Personagens</a>
+                    <a class="nav-link" href="#chales">Chalés</a>
+                </div>
+            </div>
         </div>
-        </div>
-    </div>
     </nav>
 
     <div class="banner" id="topo">
-    <div class="py-5">
-        <div class="container">
-            <div class="row align-items-center g-4">
-                <div class="col-md-7">
-                    <h1 class="display-1 text-white">Percy Jackson e os Olimpianos</h1>
-                    <p class="lead mt-4 mb-5">Os deuses gregos estão vivos, moram nos Estados Unidos e têm filhos mortais. Cinco livros, uma profecia e um garoto que só queria passar de ano.</p>
-                    <a href="#livros" class="btn btn-livros btn-lg me-2">Ver os livros</a>
-                    <a href="#chales" class="btn btn-chales btn-outline-light btn-lg">Escolher um chalé</a>
+        <div class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-4">
+                    <div class="col-md-7">
+                        <h1 class="display-1 text-white">Percy Jackson e os Olimpianos</h1>
+                        <p class="lead mt-4 mb-5">Os deuses gregos estão vivos, moram nos Estados Unidos e têm filhos mortais. Cinco livros, uma profecia e um garoto que só queria passar de ano.</p>
+                        <a href="#livros" class="btn btn-livros btn-lg me-2">Ver os livros</a>
+                        <a href="#chales" class="btn btn-chales btn-outline-light btn-lg">Escolher um chalé</a>
+                    </div>
+                <div class="col-md-5 text-center" aria-hidden="true">
+                    <img src="img/camp-half-blood.png" class="img-fluid rounded-3" alt="Percy Jackson">
                 </div>
-            <div class="col-md-5 text-center" aria-hidden="true">
-                <img src="img/camp-half-blood.png" class="img-fluid rounded-3" alt="Percy Jackson">
+                </div>
             </div>
+            <svg class="wave" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true">
+                <path d="M0 35 Q150 0 300 35 T600 35 T900 35 T1200 35 V70 H0Z" fill="#e6eef2"/>
+            </svg>
+        </div>
+    </div>
+
+
+    <section id="livros">
+        <div class="container">
+            <h2 class="section-title">A saga em cinco livros</h2>
+            <hr class="traco">
+
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link livro1 active" data-bs-toggle="tab" data-bs-target="#l1" type="button" role="tab">Livro 1<small>O Ladrão de Raios</small></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link livro2" data-bs-toggle="tab" data-bs-target="#l2" type="button" role="tab">Livro 2<small>O Mar de Monstros</small></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link livro3" data-bs-toggle="tab" data-bs-target="#l3" type="button" role="tab">Livro 3<small>A Maldição do Titã</small></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link livro4" data-bs-toggle="tab" data-bs-target="#l4" type="button" role="tab">Livro 4<small>A Batalha do Labirinto</small></button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link livro5" data-bs-toggle="tab" data-bs-target="#l5" type="button" role="tab">Livro 5<small>O Último Olimpiano</small></button>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="l1" role="tabpanel">
+                    <h3>O Ladrão de Raios</h3>
+                    <p>Percy descobre que é filho de um deus e é acusado de roubar o raio-mestre de Zeus. Ele tem dez dias para encontrá-lo e evitar uma guerra entre os deuses.</p>
+                </div>
+                <div class="tab-pane fade" id="l2" role="tabpanel">
+                    <h3>O Mar de Monstros</h3>
+                    <p>A árvore que protege o acampamento está morrendo. Percy e os amigos cruzam o Mar de Monstros atrás do Velocino de Ouro para salvá-lo.</p>
+                </div>
+                <div class="tab-pane fade" id="l3" role="tabpanel">
+                    <h3>A Maldição do Titã</h3>
+                    <p>Uma missão de resgate leva o grupo a se juntar às Caçadoras de Artemis, enquanto uma ameaça antiga volta a se mexer.</p>
+                </div>
+                <div class="tab-pane fade" id="l4" role="tabpanel">
+                    <h3>A Batalha do Labirinto</h3>
+                    <p>O inimigo encontrou um caminho secreto para o acampamento: o Labirinto de Dédalo. Percy precisa entrar nele antes que seja tarde.</p>
+                </div>
+                <div class="tab-pane fade" id="l5" role="tabpanel">
+                    <h3>O Último Olimpiano</h3>
+                    <p>A guerra contra os titãs chega a Nova York, e os semideuses fazem sua defesa final do Monte Olimpo.</p>
+                </div>
             </div>
         </div>
-        <svg class="wave" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true">
-            <path d="M0 35 Q150 0 300 35 T600 35 T900 35 T1200 35 V70 H0Z" fill="#e6eef2"/>
-        </svg>
-    </div>
-    </div>
-
-    
-
+    </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
