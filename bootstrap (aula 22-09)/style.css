@@ -206,3 +206,44 @@ h3 {
 .card.luke { 
     border-left-color: #1b8a9c; 
 }
+
+#chales {
+    background: #0a2540;
+    color: #fff;
+    padding: 72px 0;
+}
+
+#chales .section-title {
+    color: #fff;
+}
+
+.accordion {
+    --bs-accordion-bg: transparent;
+    --bs-accordion-border-color: rgba(255, 255, 255, .2);
+    --bs-accordion-btn-focus-box-shadow: 0 0 0 3px rgba(201, 162, 39, .5);
+}
+
+.accordion-button {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    background: rgba(255, 255, 255, .06);
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    background: #c9a227;
+    color: #06172b;
+    box-shadow: none;
+}
+
+.accordion-button::after {
+    filter: invert(1);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: none;
+}
+
+.accordion-body {
+    color: #d7e6ec;
+}
