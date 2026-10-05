@@ -175,3 +175,34 @@ h3 {
     font-family: 'Cinzel', serif;
     color: #0a2540;
 }
+
+#personagens {
+    padding: 0 0 72px;
+}
+
+.card {
+    border: 0;
+    border-left: 6px solid #1b8a9c;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(6, 23, 43, .1);
+}
+
+.card-title {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #0a2540;
+}
+
+.card.percy { 
+    border-left-color: #0e2043; 
+}
+.card.annabeth { 
+    border-left-color: #223164; 
+}
+.card.grover { 
+    border-left-color: #3462ac; 
+}
+.card.luke { 
+    border-left-color: #1b8a9c; 
+}
