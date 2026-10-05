@@ -247,3 +247,15 @@ h3 {
 .accordion-body {
     color: #d7e6ec;
 }
+
+footer {
+    background-color: #08132a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 40px;
+}
+
+.copyright {
+    color: #1b8a9c;
+}
