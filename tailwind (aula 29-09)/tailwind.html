@@ -7,16 +7,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="bg-[#fdf6ea] text-[#3d2118] font-['DM_Sans']">
 
-
-     
     <header class="sticky top-0 bg-[#fdf6ea] border-b border-[#3d2118]/10">
-        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
-            <a href="#inicio">
-                <span class="block text-sm">agência</span>
-                <span class="font-['Fraunces'] font-black text-3xl">rastro</span>
-            </a>
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center">
+            <div class="flex-1">
+                <a href="#inicio">
+                    <span class="block text-sm">agência</span>
+                    <span class="font-['Fraunces'] font-black text-3xl">rastro</span>
+                </a>
+            </div>
 
             <nav class="flex gap-8 text-sm font-medium">
                 <a href="#sobre" class="hover:text-[#1b3a2d]">sobre</a>
@@ -25,11 +26,40 @@
                 <a href="#contato" class="hover:text-[#1b3a2d]">contato</a>
             </nav>
 
-            <a href="#contato" class="bg-[#3d2118] text-[#fdf6ea] text-sm font-bold px-5 py-2 rounded-full hover:bg-[#1b3a2d]">
-                vamos conversar
-            </a>
+            <div class="flex-1 flex justify-end">
+                <a href="#contato" class="bg-[#3d2118] text-[#fdf6ea] text-sm font-bold px-5 py-2 rounded-full hover:bg-[#1b3a2d]">
+                    vamos conversar
+                </a>
+            </div>
         </div>
     </header>
+
+    
+    <section id="inicio" class="bg-[url('img/banner-rastro.png')] bg-cover bg-center">
+        <div class="max-w-6xl mx-auto px-6 py-32 text-center">
+
+            <h1 class="font-['Fraunces'] font-black text-6xl leading-tight">
+                deixe o seu <span class="text-[#1b3a2d]">rastro</span><br>
+                por onde passar.
+            </h1>
+
+            <p class="mt-6 text-lg max-w-xl mx-auto">
+                Somos uma agência que cria marcas com personalidade: traços orgânicos, cores marcantes e ideias que ficam.
+            </p>
+
+            <div class="mt-10 flex justify-center gap-4">
+
+                <a href="#galeria" class="w-56 text-center bg-[#e8b4cb] text-[#3d2118] font-bold py-3 rounded-full border-2 border-[#e8b4cb] hover:bg-[#3d2118] hover:border-[#3d2118] hover:text-[#fdf6ea] transition">
+                ver projetos
+                </a>
+
+                <a href="#sobre" class="w-56 text-center bg-[#e8b4cb] text-[#3d2118] font-bold py-3 rounded-full border-2 border-[#e8b4cb] hover:bg-[#3d2118] hover:border-[#3d2118] hover:text-[#fdf6ea] transition">
+                como trabalhamos
+                </a>
+
+            </div>
+        </div>
+    </section>
 
 </body>
 </html>
