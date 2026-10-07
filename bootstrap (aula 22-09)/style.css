@@ -43,16 +43,7 @@ p {
 }
 
 .btn-livros {
-    background: #c9a227;
-    border-color: #c9a227;
-    color: #06172b;
     font-family: 'Cinzel', serif; 
-}
-
-.btn-livros:hover {
-    background: #ddb73a;
-    border-color: #ddb73a;
-    color: #06172b;
 }
 
 .btn-chales {
@@ -89,15 +80,6 @@ img {
     font-family: 'Cinzel', serif;
     font-weight: 700;
     color: #0a2540;
-}
-
-.traco {
-    width: 80px;
-    height: 4px;
-    background: #c9a227;
-    border: 0;
-    opacity: 1;
-    margin: 10px 0 32px;
 }
 
 p {
@@ -258,4 +240,3 @@ footer {
 
 .copyright {
     color: #1b8a9c;
-}
