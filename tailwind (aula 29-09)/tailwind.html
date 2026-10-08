@@ -36,7 +36,6 @@
       </div>
     </nav>
 
-    
     <div class="flex h-screen flex-col">
       <section class="relative flex-1 w-full overflow-hidden mt=0">
 
@@ -60,8 +59,6 @@
 
         <div class="flex flex-1 flex-col border-2 border-[#250209]">
           <div class="flex h-72 items-center justify-center bg-[#F10291]">
-
-            
           </div>
           <div class="flex flex-col gap-2 border-t-2 border-[#250209] bg-[#FFCAE4] p-5">
             <h3 class="font-['Fraunces'] font-black text-2xl">Bold Hoodie</h3>
@@ -106,7 +103,6 @@
 
       <div class="flex items-center justify-between border-b-2 border-[#250209] pb-4">
         <h2 class="font-['Fraunces'] font-black text-5xl md:text-7xl leading-none">Lookbook</h2>
-
       </div>
 
       <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-4 auto-rows-[200px] md:auto-rows-[260px]">
@@ -126,6 +122,55 @@
         <div class="col-span-2 flex items-end border-2 border-[#250209] bg-[#FFF3F2] p-4">
           <span class="text-[#250209] text-xs font-bold uppercase tracking-[0.2em]">Look 04</span>
         </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-[#250209] text-[#FFF3F2] px-5 md:px-10 py-16">
+
+      <div class="flex items-center justify-between border-b-2 border-[#FFF3F2] pb-4">
+        <h2 class="font-['Fraunces'] font-black text-5xl md:text-7xl leading-none">Contact</h2>
+      </div>
+
+      <div class="mt-10 flex flex-col gap-10 md:flex-row">
+
+        <div class="flex flex-1 flex-col gap-6">
+          <h3 class="font-['Fraunces'] font-black text-4xl md:text-6xl text-[#F10291]">
+            Say hi to<br/>Bold Studio.
+          </h3>
+          <p class="max-w-md text-base text-[#FFF3F2]">
+            Questions about a drop, a collab or an order? Send us a message and we will answer as soon as we can.
+          </p>
+          
+          <div class="flex flex-col gap-3 text-sm">
+            <div class="flex flex-col">
+              <span class="text-xs font-bold uppercase tracking-[0.2em] text-[#FFCAE4]">Email</span>
+              <span>hello@boldstudio.com</span>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-xs font-bold uppercase tracking-[0.2em] text-[#FFCAE4]">Instagram</span>
+              <span>@boldstudio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-1 flex-col gap-5">
+          <div class="flex flex-col gap-2">
+            <input id="name" type="text" placeholder="Your name" class="border-2 border-[#FFF3F2] bg-transparent px-4 py-3 text-[#FFF3F2] placeholder:text-[#FFF3F2]/50 focus:border-[#F10291] focus:outline-none">
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <input id="email" type="email" placeholder="you@email.com" class="border-2 border-[#FFF3F2] bg-transparent px-4 py-3 text-[#FFF3F2] placeholder:text-[#FFF3F2]/50 focus:border-[#F10291] focus:outline-none">
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <textarea id="message" rows="5" placeholder="Tell us what you need" class="border-2 border-[#FFF3F2] bg-transparent px-4 py-3 text-[#FFF3F2] placeholder:text-[#FFF3F2]/50 focus:border-[#F10291] focus:outline-none"></textarea>
+          </div>
+
+          <button class="bg-[#F10291] px-6 py-4 text-xs font-bold uppercase tracking-[0.2em] text-[#FFF3F2] hover:bg-[#FFCAE4] hover:text-[#250209] transition-colors">
+            Send message
+          </button>
+        </div>
+
       </div>
     </section>
 
