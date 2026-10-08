@@ -4,36 +4,51 @@
             petal: "#FFCAE4",
             snow: "#FFF3F2",
             raspberry: "#89235B",
-          }, -->
+          }  -->
+
 
 
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bold Studio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bold Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-[#FFF3F2] font-body text-[#FFF3F2] overflow-x-hidden antialiased">
+<body class="bg-[#FFF3F2] font-['DM_Sans'] text-[#FFF3F2] overflow-x-hidden antialiased">
 
-  <nav class="sticky top-0 z-50 border-b-2 border-[#250209] bg-[#FFF3F2]">
-    <div class="flex items-center justify-between px-5 md:px-10 py-4">
-      <div class="flex items-center gap-3">
-        <span class="font-display font-['DM Sans'] font-black text-3xl md:text-4xl leading-none tracking-tight text-[#250209]">Bold Studio</span>
+    <nav class="sticky top-0 z-50 border-b-2 border-[#250209] bg-[#FFCAE4]">
+      <div class="flex items-center justify-between px-5 md:px-10 py-2">
+        <div class="flex items-center gap-3">
+          <span class="font-['Fraunces'] font-black text-2xl  text-[#250209]">Bold Studio</span>
+        </div>
+        <div class="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] font-bold text-[#250209]">
+          <a href="#newdrop" class="hover:text-[#F10291] transition-colors">New Drop</a>
+          <a href="#lookbook" class="hover:text-[#F10291] transition-colors">Lookbook</a>
+          <a href="#contact" class="hover:text-[#F10291] transition-colors">Contact</a>
+        </div>
+        <span class="text-xs uppercase tracking-[0.2em] font-bold text-[#250209]">BOLD. LOUD. DIFFERENT.</span>
       </div>
-      <div class="hidden md:flex items-center gap-8 text-xs uppercase tracking-[0.2em] font-bold text-[#250209]">
-        <a href="#newdrop" class="hover:text-[#F10291] transition-colors">New Drop</a>
-        <a href="#lookbook" class="hover:text-[#F10291] transition-colors">Lookbook</a>
-        <a href="#contact" class="hover:text-[#F10291] transition-colors">Contact</a>
-      </div>
-      <span class="text-xs uppercase tracking-[0.2em] font-bold text-[#250209]">BOLD. LOUD. DIFFERENT.</span>
+    </nav>
+
+    
+    <div class="flex h-screen flex-col">
+      <section class="relative flex-1 w-full overflow-hidden mt=0">
+
+        <img src="/tailwind (aula 29-09)/img/bg-hero.png" alt="hero" class="absolute inset-0 h-full w-full object-cover">
+        <div class="relative z-10 flex h-full flex-col justify-center px-5 md:px-10">
+            <h1 class="font-['Fraunces'] font-black leading-[0.8] tracking-tight text-[#FFCAE4] text-[101px] md:text-[260px]">
+              Bold<br/>Wister
+            </h1>
+        </div>
+      </section>
     </div>
-  </nav>
+
 
 </body>
 </html>
